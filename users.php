@@ -6,6 +6,19 @@
   }
 ?>
 <?php include_once "header.php"; ?>
+
+<style>
+
+    body
+    {
+      background-image: url('./php/images/chatbg.avif');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+</style>
+
 <body>
   <div class="wrapper">
     <section class="users">
