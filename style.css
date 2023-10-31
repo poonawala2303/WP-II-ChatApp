@@ -14,6 +14,30 @@ body{
   background: #f7f7f7;
   padding: 0 10px;
 }
+
+/* Preloader  */
+
+.preloader{
+    background: #000 url('./php/images/DzUu.gif') no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.preloader h1
+{
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 550px;
+}
+
+iframe{
+  display: none;
+}
+
 .wrapper{
   background: #fff;
   max-width: 450px;
@@ -75,6 +99,7 @@ body{
 .form form .field input{
   outline: none;
 }
+
 .form form .image input{
   font-size: 17px;
 }

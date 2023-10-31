@@ -6,7 +6,19 @@
   }
 ?>
 <?php include_once "header.php"; ?>
+
+<style>
+  .chat-box{
+    background-image: url('./php/images/wallpaper.png');
+  }
+</style>
+
 <body>
+
+    <div class="preloader" id="preloader" >
+      <h1>Loading .....</h1>
+    </div>
+
   <div class="wrapper">
     <section class="chat-area">
       <header>
@@ -38,6 +50,15 @@
   </div>
 
   <script src="javascript/chat.js"></script>
+  <script>
+      var loader = document.getElementById('preloader');
+
+      window.addEventListener('load',function(){
+        loader.style.display = 'none';
+      })
+  </script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </body>
 </html>

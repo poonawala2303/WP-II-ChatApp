@@ -9,7 +9,7 @@ if (isset($_SESSION['unique_id'])) {
 
 <style>
 
-    img
+    .wrap
     {
         display: flex;
         justify-content: center;
@@ -26,13 +26,24 @@ if (isset($_SESSION['unique_id'])) {
       background-size: cover;
     }
 
+    img
+    {
+      display: none;
+    }
+
+   
+
 </style>
 
 <body>
 
+    <div class="preloader" id="preloader" >
+      <h1>Loading .....</h1>
+    </div>
+
   <div class="wrapper">
     <section>
-      <img src="../AI BOT/team.py-sih-kjsce/Frontend/Assets/7883-removebg-preview 1.png" alt="">
+      <img class="wrap" src="./php/images/7883-removebg-preview 1.png" alt="">
     </section>
     <section class="form signup">
     <header style="text-align: center;" >Realtime Chat App</header>
@@ -54,7 +65,7 @@ if (isset($_SESSION['unique_id'])) {
 
         <div class="field input">
           <label>Email Address</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
+          <input type="email" name="email" placeholder="Enter your email" required>
         </div>
 
         <div class="field input">
@@ -82,6 +93,21 @@ if (isset($_SESSION['unique_id'])) {
 
   <script src="javascript/pass-show-hide.js"></script>
   <script src="javascript/signup.js"></script>
+
+  <script>
+      var loader = document.getElementById('preloader');
+
+      window.addEventListener('load',function(){
+        loader.style.display = 'none';
+      })
+  </script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=JpBXdeIzr9xfJZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          
 
 </body>
 
